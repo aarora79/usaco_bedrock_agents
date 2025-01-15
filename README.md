@@ -1,6 +1,6 @@
-# Amazon Bedrock agents for USACO
+# Amazon Bedrock models for USACO
 
-AI Agents for [`USACO`](https://github.com/princeton-nlp/USACO). We use Amazon Bedrock to create Agents for different models such as Amazon Nova, Anthropic Claude and Meta Llama3 family of models. These [`The Holistic Agent Leaderboard for Reproducible Agent Evaluation`](https://github.com/benediktstroebl/hal-harness) a.k.a. HAL is used for evaluating the performance of these models on the USACO benchmark.
+AI Agents for [`USACO`](https://github.com/princeton-nlp/USACO). We can use Amazon Bedrock to create GenAI apps for different models such as Amazon Nova, Anthropic Claude and Meta Llama3 family of models. The [`The Holistic Agent Leaderboard for Reproducible Agent Evaluation`](https://github.com/benediktstroebl/hal-harness) a.k.a. HAL is used for evaluating the performance of these models on the USACO benchmark.
 
 See code in [`main.py`](main.py) and the prompt templates [`here`](prompt_templates) directory.
 
@@ -11,8 +11,8 @@ This code is run as part of the `HAL` platform over the tasks in the `USACO` ben
 1. Create a new conda envronment.
 
     ```{.bashrc}
-    conda create --name usaco_bedrock_agents -y python=3.11 ipykernel
-    source activate usaco_bedrock_agents;
+    conda create --name usaco_bedrock_models -y python=3.11 ipykernel
+    source activate usaco_bedrock_models;
     pip install -r requirements.txt
     ```
 
